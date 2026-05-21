@@ -1,0 +1,102 @@
+{
+  "signal": "STRONG_BUY",
+  "score": 10.0,
+  "confidence": 0.94,
+  "deterministic_metrics": {
+    "current_revenue": 81615000000.0,
+    "prior_quarter_revenue": 68127000000.0,
+    "prior_year_revenue": 44062000000.0,
+    "revenue_qoq_pct": 21.0,
+    "revenue_yoy_pct": 85.0,
+    "gross_margin_gaap": 74.9,
+    "gross_margin_non_gaap": 75.0,
+    "operating_income": 53536000000.0,
+    "net_income": 58321000000.0,
+    "eps_gaap_diluted": 2.39,
+    "eps_non_gaap_diluted": 1.87,
+    "eps_qoq_pct": 36.0,
+    "eps_yoy_pct": 214.0,
+    "guided_revenue_midpoint": 91000000000.0,
+    "guided_revenue_range": [
+      89180000000.0,
+      92820000000.0
+    ],
+    "guided_gross_margin_gaap": 74.9,
+    "guided_gross_margin_non_gaap": 75.0,
+    "guidance_vs_consensus_pct": null,
+    "buyback_authorized_usd": 80000000000.0,
+    "dividend_per_share_new": 0.25,
+    "dividend_per_share_old": 0.01,
+    "dividend_change_pct": 2400.0,
+    "operating_cash_flow": null,
+    "free_cash_flow": 48554000000.0,
+    "capex": null,
+    "segments": [
+      {
+        "name": "Data Center",
+        "revenue": 75200000000.0,
+        "qoq_pct": null,
+        "yoy_pct": null
+      },
+      {
+        "name": "Edge Computing",
+        "revenue": 6400000000.0,
+        "qoq_pct": null,
+        "yoy_pct": null
+      }
+    ],
+    "revenue_beat": true,
+    "margin_expansion": true,
+    "guidance_raise": true
+  },
+  "semantic_metrics": {
+    "sentiment": "bullish",
+    "sentiment_confidence": 0.9,
+    "guidance_tone": "raised",
+    "management_tone": "confident",
+    "key_risks": [
+      "Global economic and political conditions",
+      "Reliance on third-party manufacturing",
+      "Technological competition",
+      "Regulatory changes",
+      "Market acceptance of new products"
+    ],
+    "key_catalysts": [
+      "AI infrastructure expansion",
+      "Record Data Center revenue growth",
+      "New strategic partnerships",
+      "Significant share repurchase authorization",
+      "Launch of new AI and computing technologies"
+    ],
+    "demand_signal": "accelerating",
+    "competitive_signal": "gaining_share",
+    "capital_allocation_signal": "shareholder_friendly",
+    "beat_or_miss": "beat",
+    "surprise_magnitude": "large",
+    "sector_read_through": "The AI and accelerated computing sectors are experiencing significant growth and demand.",
+    "headline_summary": "NVIDIA reported record revenue and earnings growth, driven by strong demand in AI and Data Center markets. The company has raised its guidance and announced substantial shareholder rewards.",
+    "notable_quotes": [
+      "The buildout of AI factories -- the largest infrastructure expansion in human history -- is accelerating at extraordinary speed.",
+      "NVIDIA is uniquely positioned at the center of this transformation as the only platform that runs in every cloud, powers every frontier and open source model, and scales everywhere AI is produced -- from hyperscale data centers to the edge."
+    ],
+    "red_flags": [
+      "Transition to a new reporting framework",
+      "Exclusion of China in Data Center compute revenue outlook"
+    ]
+  },
+  "score_breakdown": {
+    "revenue_yoy_strong (>50%)": 2.0,
+    "margin_expansion": 1.0,
+    "guidance_raise": 1.0,
+    "positive_fcf": 1.0,
+    "dividend_increase": 1.0,
+    "buyback_authorized": 1.0,
+    "sentiment (bullish, conf=90%)": 1.8,
+    "guidance_tone (raised)": 1.0,
+    "demand_signal (accelerating)": 1.0,
+    "management_tone (confident)": 1.0,
+    "beat_or_miss (beat)": 1.0,
+    "surprise_magnitude (large)": 1.0
+  },
+  "generated_at": "2026-05-21T22:10:15.051244+00:00"
+}

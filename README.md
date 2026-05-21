@@ -1,4 +1,4 @@
-# Earnings Radar — Trading Signal System
+# Earnings Radar - Trading Signal System
 
 A two-layer financial document parser that ingests earnings releases, 10-Ks, press releases,
 and similar documents and emits a structured trading signal with a score, confidence rating,
@@ -28,11 +28,11 @@ deterministic_parser.py         semantic_parser.py
           (rich terminal + JSON file)
 ```
 
-### Layer 1 — Deterministic Parser
+### Layer 1 - Deterministic Parser
 Rule-based extraction using regex and numeric parsing. Extracts revenue figures, margins,
 EPS, guidance, cash flow, segment data, and shareholder return signals. Works with no API key.
 
-### Layer 2 — Semantic Parser
+### Layer 2 - Semantic Parser
 Sends the full document text to `gpt-4o` and receives a structured JSON response covering
 sentiment, guidance tone, demand signals, catalysts, risks, red flags, and sector read-through.
 

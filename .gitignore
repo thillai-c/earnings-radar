@@ -1,0 +1,19 @@
+# Secrets
+.env
+
+# Generated output
+signal_output.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
